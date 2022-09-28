@@ -25,12 +25,12 @@ public class Ejercicio1 {
      baseimponible=teclado.nextInt();
      
      System.out.println("Introduce el IVA a aplicar");
-     IVA= teclado.nextDouble();
+     IVAr= teclado.nextDouble();
      
      double IVAr=(baseimponible*IVA/100); //IVA total a aplicar
      double total=IVA+baseimponible;
      
-     System.out.println("El importe correspondiente al IVA es: "+ IVA );
+     System.out.println("El importe correspondiente al IVA es: "+ IVAr );
      System.out.println("El importe total es: "+total);
     }
     
